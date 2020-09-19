@@ -5,7 +5,7 @@ import { HeaderStyles } from "./Header.styled";
 export default function Header() {
   return (
     <HeaderStyles>
-      Header!
+      Bonnie Mellott - Designer/Developer
       <ul>
         <li>
           <Link to="/">Home</Link>
