@@ -6,7 +6,8 @@ export const projectListing = [
     category: "Design/Development",
     slug: "/clayton-homes-retail",
     isFeatured: true,
-    image: "http://placekitten.com/200/300",
+    imageUrl: "http://placekitten.com/200/300",
+    cta: "Launch Prototype",
   },
   {
     title: "React Component Library Case Study",
@@ -15,7 +16,8 @@ export const projectListing = [
     category: "Design Systems and React Development",
     slug: "/react-component-library",
     isFeatured: true,
-    image: "http://placekitten.com/200/300",
+    imageUrl: "http://placekitten.com/200/300",
+    cta: "View Case Study",
   },
   {
     title: "Oregon Trail Games Logo & Business Cards",
@@ -24,7 +26,7 @@ export const projectListing = [
     category: "Design Systems and React Development",
     slug: "/oregon-trial-games",
     isFeatured: true,
-    image: "http://placekitten.com/200/300",
+    imageUrl: "http://placekitten.com/200/300",
   },
   {
     title: "Electric Vehicles 101 Infographic",
@@ -33,7 +35,7 @@ export const projectListing = [
     category: "Graphic Design",
     slug: "/electric-vehicles-infographic",
     isFeatured: true,
-    image: "http://placekitten.com/200/300",
+    imageUrl: "http://placekitten.com/200/300",
   },
   {
     title: "Drag and Drop Home Search Tool Prototype",
@@ -41,7 +43,7 @@ export const projectListing = [
     category: "Development",
     slug: "/home-search-prototype",
     isFeatured: false,
-    image: "http://placekitten.com/200/300",
+    imageUrl: "http://placekitten.com/200/300",
   },
   {
     title: "Stylish Slice Website",
@@ -49,7 +51,7 @@ export const projectListing = [
     category: "Design and Development",
     slug: "/stylish-slice",
     isFeatured: false,
-    image: "http://placekitten.com/200/300",
+    imageUrl: "http://placekitten.com/200/300",
   },
   {
     title: "Consumer Affairs Landing Page",
@@ -57,7 +59,7 @@ export const projectListing = [
     category: "Development",
     slug: "/consumer-affairs-lp",
     isFeatured: false,
-    image: "http://placekitten.com/200/300",
+    imageUrl: "http://placekitten.com/200/300",
   },
   {
     title: "Real Estate Print Flyer",
@@ -65,7 +67,7 @@ export const projectListing = [
     category: "Graphic Design",
     slug: "/real-estate-flyer",
     isFeatured: false,
-    image: "http://placekitten.com/200/300",
+    imageUrl: "http://placekitten.com/200/300",
   },
   {
     title: "Festivus Party Invitation",
@@ -73,6 +75,6 @@ export const projectListing = [
     category: "Graphic Design",
     slug: "/festivus-invitation",
     isFeatured: false,
-    image: "http://placekitten.com/200/300",
+    imageUrl: "http://placekitten.com/200/300",
   },
 ];
