@@ -2,14 +2,19 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { HeaderStyles } from "./Header.styled";
 
+import logo from "./images/logo.gif";
+
 export default function Header() {
   return (
     <HeaderStyles>
-      Bonnie Mellott - Designer/Developer
+      <Link to="/">
+        <img
+          src={logo}
+          alt="Bonnie Mellott - Interactive Media Design"
+          className="logo"
+        />
+      </Link>
       <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
         <li>
           <Link to="/portfolio">Portfolio</Link>
         </li>

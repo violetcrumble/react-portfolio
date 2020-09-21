@@ -6,7 +6,7 @@ export const projectListing = [
     category: "Design/Development",
     slug: "/clayton-homes-retail",
     isFeatured: true,
-    imageUrl: "http://placekitten.com/200/300",
+    imageUrl: "/projects/clayton-retail.jpg",
     cta: "Launch Prototype",
   },
   {
@@ -16,7 +16,7 @@ export const projectListing = [
     category: "Design Systems and React Development",
     slug: "/react-component-library",
     isFeatured: true,
-    imageUrl: "http://placekitten.com/200/300",
+    imageUrl: "/projects/smokey.jpg",
     cta: "View Case Study",
   },
   {
@@ -24,9 +24,9 @@ export const projectListing = [
     description:
       "This logo was created for a table top gaming store. It was used on their business cards, and on storefront signage.",
     category: "Design Systems and React Development",
-    slug: "/oregon-trial-games",
+    slug: "/oregon-trail-games",
     isFeatured: true,
-    imageUrl: "http://placekitten.com/200/300",
+    imageUrl: "/projects/oregontrail.jpg",
   },
   {
     title: "Electric Vehicles 101 Infographic",
@@ -35,7 +35,7 @@ export const projectListing = [
     category: "Graphic Design",
     slug: "/electric-vehicles-infographic",
     isFeatured: true,
-    imageUrl: "http://placekitten.com/200/300",
+    imageUrl: "/projects/evs-101.jpg",
   },
   {
     title: "Drag and Drop Home Search Tool Prototype",
@@ -43,7 +43,7 @@ export const projectListing = [
     category: "Development",
     slug: "/home-search-prototype",
     isFeatured: false,
-    imageUrl: "http://placekitten.com/200/300",
+    imageUrl: "/projects/homesearch.jpg",
   },
   {
     title: "Stylish Slice Website",
@@ -51,7 +51,7 @@ export const projectListing = [
     category: "Design and Development",
     slug: "/stylish-slice",
     isFeatured: false,
-    imageUrl: "http://placekitten.com/200/300",
+    imageUrl: "/projects/stylish-slice.jpg",
   },
   {
     title: "Consumer Affairs Landing Page",
@@ -59,7 +59,7 @@ export const projectListing = [
     category: "Development",
     slug: "/consumer-affairs-lp",
     isFeatured: false,
-    imageUrl: "http://placekitten.com/200/300",
+    imageUrl: "/projects/consumer-affairs.jpg",
   },
   {
     title: "Real Estate Print Flyer",
@@ -67,7 +67,7 @@ export const projectListing = [
     category: "Graphic Design",
     slug: "/real-estate-flyer",
     isFeatured: false,
-    imageUrl: "http://placekitten.com/200/300",
+    imageUrl: null,
   },
   {
     title: "Festivus Party Invitation",
@@ -75,6 +75,6 @@ export const projectListing = [
     category: "Graphic Design",
     slug: "/festivus-invitation",
     isFeatured: false,
-    imageUrl: "http://placekitten.com/200/300",
+    imageUrl: null,
   },
 ];

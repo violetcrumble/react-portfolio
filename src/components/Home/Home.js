@@ -1,4 +1,5 @@
 import React from "react";
+import { FeaturedProjectsCarousel } from "./FeaturedProjectsCarousel/FeaturedProjectsCarousel";
 import { HomeStyles } from "./Home.styled";
 
 export default function Home() {
@@ -29,7 +30,7 @@ export default function Home() {
         <button>Check out my resume</button>
       </div>
 
-      <div>Featured projects carousel (carousel of cards)</div>
+      <FeaturedProjectsCarousel />
     </HomeStyles>
   );
 }

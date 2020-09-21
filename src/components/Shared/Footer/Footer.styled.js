@@ -1,5 +1,7 @@
 import styled from "styled-components";
+import Colors from "../_colorScheme";
 
 export const FooterStyles = styled.header`
-  border: solid 1px green;
+  background-color: ${Colors.primaryBackgroundColor.standard};
+  color: ${Colors.primaryTextColor.standard};
 `;

@@ -2,6 +2,8 @@ import React from "react";
 import { Reset } from "styled-reset";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
+import { AppStyles } from "./App.styled";
+
 import Header from "./components/Shared/Header/Header";
 import Footer from "./components/Shared/Footer/Footer";
 
@@ -13,31 +15,32 @@ import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
-    <Router>
-      <Reset />
+    <AppStyles>
+      <Router>
+        <Reset />
 
-      <Header />
+        <Header />
 
-      <Switch>
-        <Route exact path="/">
-          <Home />
-        </Route>
-        <Route path="/portfolio">
-          <Portfolio />
-        </Route>
-        <Route path="/about">
-          <About />
-        </Route>
-        <Route path="/resume">
-          <Resume />
-        </Route>
-        <Route path="/contact">
-          <Contact />
-        </Route>
-      </Switch>
-
-      <Footer />
-    </Router>
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/portfolio">
+            <Portfolio />
+          </Route>
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/resume">
+            <Resume />
+          </Route>
+          <Route path="/contact">
+            <Contact />
+          </Route>
+        </Switch>
+        <Footer />
+      </Router>
+    </AppStyles>
   );
 }
 
